@@ -7,34 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CBB7A19C29AD87BF00040BCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB7A19B29AD87BF00040BCF /* AppDelegate.m */; };
-		CBB7A19F29AD87BF00040BCF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB7A19E29AD87BF00040BCF /* SceneDelegate.m */; };
-		CBB7A1A229AD87BF00040BCF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB7A1A129AD87BF00040BCF /* ViewController.m */; };
-		CBB7A1A529AD87BF00040BCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBB7A1A329AD87BF00040BCF /* Main.storyboard */; };
-		CBB7A1A729AD87C100040BCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB7A1A629AD87C100040BCF /* Assets.xcassets */; };
-		CBB7A1AA29AD87C100040BCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBB7A1A829AD87C100040BCF /* LaunchScreen.storyboard */; };
-		CBB7A1AD29AD87C100040BCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB7A1AC29AD87C100040BCF /* main.m */; };
-		CBB7A1CE29AD885900040BCF /* OC势力.md in Resources */ = {isa = PBXBuildFile; fileRef = CBB7A1CD29AD885900040BCF /* OC势力.md */; };
+		CBC1C84D29B59AD30009479F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC1C84C29B59AD30009479F /* AppDelegate.m */; };
+		CBC1C85029B59AD30009479F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC1C84F29B59AD30009479F /* SceneDelegate.m */; };
+		CBC1C85329B59AD30009479F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC1C85229B59AD30009479F /* ViewController.m */; };
+		CBC1C85629B59AD30009479F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBC1C85429B59AD30009479F /* Main.storyboard */; };
+		CBC1C85829B59AD40009479F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBC1C85729B59AD40009479F /* Assets.xcassets */; };
+		CBC1C85B29B59AD40009479F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBC1C85929B59AD40009479F /* LaunchScreen.storyboard */; };
+		CBC1C85E29B59AD40009479F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC1C85D29B59AD40009479F /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CBB7A19729AD87BF00040BCF /* Objective-C_gang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objective-C_gang.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBB7A19A29AD87BF00040BCF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CBB7A19B29AD87BF00040BCF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CBB7A19D29AD87BF00040BCF /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		CBB7A19E29AD87BF00040BCF /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		CBB7A1A029AD87BF00040BCF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CBB7A1A129AD87BF00040BCF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CBB7A1A429AD87BF00040BCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CBB7A1A629AD87C100040BCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CBB7A1A929AD87C100040BCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CBB7A1AB29AD87C100040BCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CBB7A1AC29AD87C100040BCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CBB7A1CD29AD885900040BCF /* OC势力.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = "OC势力.md"; path = "../../OC势力.md"; sourceTree = "<group>"; };
+		CBC1C84829B59AD30009479F /* ASW_OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASW_OC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBC1C84B29B59AD30009479F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CBC1C84C29B59AD30009479F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CBC1C84E29B59AD30009479F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		CBC1C84F29B59AD30009479F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		CBC1C85129B59AD30009479F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CBC1C85229B59AD30009479F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CBC1C85529B59AD30009479F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBC1C85729B59AD40009479F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBC1C85A29B59AD40009479F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBC1C85C29B59AD40009479F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBC1C85D29B59AD40009479F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CBB7A19429AD87BF00040BCF /* Frameworks */ = {
+		CBC1C84529B59AD30009479F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,76 +42,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CBB7A18E29AD87BF00040BCF = {
+		CBC1C83F29B59AD30009479F = {
 			isa = PBXGroup;
 			children = (
-				CBB7A19929AD87BF00040BCF /* Objective-C_gang */,
-				CBB7A19829AD87BF00040BCF /* Products */,
+				CBC1C84A29B59AD30009479F /* ASW_OC */,
+				CBC1C84929B59AD30009479F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CBB7A19829AD87BF00040BCF /* Products */ = {
+		CBC1C84929B59AD30009479F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CBB7A19729AD87BF00040BCF /* Objective-C_gang.app */,
+				CBC1C84829B59AD30009479F /* ASW_OC.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CBB7A19929AD87BF00040BCF /* Objective-C_gang */ = {
+		CBC1C84A29B59AD30009479F /* ASW_OC */ = {
 			isa = PBXGroup;
 			children = (
-				CBB7A1CD29AD885900040BCF /* OC势力.md */,
-				CBB7A19A29AD87BF00040BCF /* AppDelegate.h */,
-				CBB7A19B29AD87BF00040BCF /* AppDelegate.m */,
-				CBB7A19D29AD87BF00040BCF /* SceneDelegate.h */,
-				CBB7A19E29AD87BF00040BCF /* SceneDelegate.m */,
-				CBB7A1A029AD87BF00040BCF /* ViewController.h */,
-				CBB7A1A129AD87BF00040BCF /* ViewController.m */,
-				CBB7A1A329AD87BF00040BCF /* Main.storyboard */,
-				CBB7A1A629AD87C100040BCF /* Assets.xcassets */,
-				CBB7A1A829AD87C100040BCF /* LaunchScreen.storyboard */,
-				CBB7A1AB29AD87C100040BCF /* Info.plist */,
-				CBB7A1AC29AD87C100040BCF /* main.m */,
+				CBC1C84B29B59AD30009479F /* AppDelegate.h */,
+				CBC1C84C29B59AD30009479F /* AppDelegate.m */,
+				CBC1C84E29B59AD30009479F /* SceneDelegate.h */,
+				CBC1C84F29B59AD30009479F /* SceneDelegate.m */,
+				CBC1C85129B59AD30009479F /* ViewController.h */,
+				CBC1C85229B59AD30009479F /* ViewController.m */,
+				CBC1C85429B59AD30009479F /* Main.storyboard */,
+				CBC1C85729B59AD40009479F /* Assets.xcassets */,
+				CBC1C85929B59AD40009479F /* LaunchScreen.storyboard */,
+				CBC1C85C29B59AD40009479F /* Info.plist */,
+				CBC1C85D29B59AD40009479F /* main.m */,
 			);
-			path = "Objective-C_gang";
+			path = ASW_OC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CBB7A19629AD87BF00040BCF /* Objective-C_gang */ = {
+		CBC1C84729B59AD30009479F /* ASW_OC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CBB7A1B029AD87C100040BCF /* Build configuration list for PBXNativeTarget "Objective-C_gang" */;
+			buildConfigurationList = CBC1C86129B59AD40009479F /* Build configuration list for PBXNativeTarget "ASW_OC" */;
 			buildPhases = (
-				CBB7A19329AD87BF00040BCF /* Sources */,
-				CBB7A19429AD87BF00040BCF /* Frameworks */,
-				CBB7A19529AD87BF00040BCF /* Resources */,
+				CBC1C84429B59AD30009479F /* Sources */,
+				CBC1C84529B59AD30009479F /* Frameworks */,
+				CBC1C84629B59AD30009479F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Objective-C_gang";
-			productName = "Objective-C_gang";
-			productReference = CBB7A19729AD87BF00040BCF /* Objective-C_gang.app */;
+			name = ASW_OC;
+			productName = ASW_OC;
+			productReference = CBC1C84829B59AD30009479F /* ASW_OC.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CBB7A18F29AD87BF00040BCF /* Project object */ = {
+		CBC1C84029B59AD30009479F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					CBB7A19629AD87BF00040BCF = {
+					CBC1C84729B59AD30009479F = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = CBB7A19229AD87BF00040BCF /* Build configuration list for PBXProject "Objective-C_gang" */;
+			buildConfigurationList = CBC1C84329B59AD30009479F /* Build configuration list for PBXProject "ASW_OC" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,57 +118,56 @@
 				en,
 				Base,
 			);
-			mainGroup = CBB7A18E29AD87BF00040BCF;
-			productRefGroup = CBB7A19829AD87BF00040BCF /* Products */;
+			mainGroup = CBC1C83F29B59AD30009479F;
+			productRefGroup = CBC1C84929B59AD30009479F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CBB7A19629AD87BF00040BCF /* Objective-C_gang */,
+				CBC1C84729B59AD30009479F /* ASW_OC */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CBB7A19529AD87BF00040BCF /* Resources */ = {
+		CBC1C84629B59AD30009479F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBB7A1AA29AD87C100040BCF /* LaunchScreen.storyboard in Resources */,
-				CBB7A1A729AD87C100040BCF /* Assets.xcassets in Resources */,
-				CBB7A1CE29AD885900040BCF /* OC势力.md in Resources */,
-				CBB7A1A529AD87BF00040BCF /* Main.storyboard in Resources */,
+				CBC1C85B29B59AD40009479F /* LaunchScreen.storyboard in Resources */,
+				CBC1C85829B59AD40009479F /* Assets.xcassets in Resources */,
+				CBC1C85629B59AD30009479F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CBB7A19329AD87BF00040BCF /* Sources */ = {
+		CBC1C84429B59AD30009479F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBB7A1A229AD87BF00040BCF /* ViewController.m in Sources */,
-				CBB7A19C29AD87BF00040BCF /* AppDelegate.m in Sources */,
-				CBB7A1AD29AD87C100040BCF /* main.m in Sources */,
-				CBB7A19F29AD87BF00040BCF /* SceneDelegate.m in Sources */,
+				CBC1C85329B59AD30009479F /* ViewController.m in Sources */,
+				CBC1C84D29B59AD30009479F /* AppDelegate.m in Sources */,
+				CBC1C85E29B59AD40009479F /* main.m in Sources */,
+				CBC1C85029B59AD30009479F /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CBB7A1A329AD87BF00040BCF /* Main.storyboard */ = {
+		CBC1C85429B59AD30009479F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CBB7A1A429AD87BF00040BCF /* Base */,
+				CBC1C85529B59AD30009479F /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		CBB7A1A829AD87C100040BCF /* LaunchScreen.storyboard */ = {
+		CBC1C85929B59AD40009479F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CBB7A1A929AD87C100040BCF /* Base */,
+				CBC1C85A29B59AD40009479F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -179,7 +175,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		CBB7A1AE29AD87C100040BCF /* Debug */ = {
+		CBC1C85F29B59AD40009479F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -237,7 +233,7 @@
 			};
 			name = Debug;
 		};
-		CBB7A1AF29AD87C100040BCF /* Release */ = {
+		CBC1C86029B59AD40009479F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -289,7 +285,7 @@
 			};
 			name = Release;
 		};
-		CBB7A1B129AD87C100040BCF /* Debug */ = {
+		CBC1C86229B59AD40009479F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -298,7 +294,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8A7TJUTP4F;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Objective-C_gang/Info.plist";
+				INFOPLIST_FILE = ASW_OC/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -309,14 +305,14 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "asaiwu.aj.Objective-C-gang";
+				PRODUCT_BUNDLE_IDENTIFIER = "asaiwu.aj.ASW-OC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		CBB7A1B229AD87C100040BCF /* Release */ = {
+		CBC1C86329B59AD40009479F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -325,7 +321,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8A7TJUTP4F;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Objective-C_gang/Info.plist";
+				INFOPLIST_FILE = ASW_OC/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -336,7 +332,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "asaiwu.aj.Objective-C-gang";
+				PRODUCT_BUNDLE_IDENTIFIER = "asaiwu.aj.ASW-OC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -346,25 +342,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CBB7A19229AD87BF00040BCF /* Build configuration list for PBXProject "Objective-C_gang" */ = {
+		CBC1C84329B59AD30009479F /* Build configuration list for PBXProject "ASW_OC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CBB7A1AE29AD87C100040BCF /* Debug */,
-				CBB7A1AF29AD87C100040BCF /* Release */,
+				CBC1C85F29B59AD40009479F /* Debug */,
+				CBC1C86029B59AD40009479F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CBB7A1B029AD87C100040BCF /* Build configuration list for PBXNativeTarget "Objective-C_gang" */ = {
+		CBC1C86129B59AD40009479F /* Build configuration list for PBXNativeTarget "ASW_OC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CBB7A1B129AD87C100040BCF /* Debug */,
-				CBB7A1B229AD87C100040BCF /* Release */,
+				CBC1C86229B59AD40009479F /* Debug */,
+				CBC1C86329B59AD40009479F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CBB7A18F29AD87BF00040BCF /* Project object */;
+	rootObject = CBC1C84029B59AD30009479F /* Project object */;
 }

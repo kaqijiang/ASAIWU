@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  Swift_gang
+//  ASW_Swift
 //
-//  Created by 侯伟杰 on 2023/2/28.
+//  Created by 侯伟杰 on 2023/3/6.
 //
 
 import SwiftUI
@@ -14,7 +14,6 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
-            Text("2323")
         }
         .padding()
     }

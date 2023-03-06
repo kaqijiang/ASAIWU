@@ -1,14 +1,14 @@
 //
-//  Swift_gangApp.swift
-//  Swift_gang
+//  ASW_SwiftApp.swift
+//  ASW_Swift
 //
-//  Created by 侯伟杰 on 2023/2/28.
+//  Created by 侯伟杰 on 2023/3/6.
 //
 
 import SwiftUI
 
 @main
-struct Swift_gangApp: App {
+struct ASW_SwiftApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
