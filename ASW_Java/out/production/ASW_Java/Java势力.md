@@ -1,66 +1,114 @@
 Java势力：以其强大的实力和庞大的生态系统著称，在阿塞坞内有着广泛的支持者。但也因为其庞大而有些难以控制和协调，存在一些复杂的派系和利益关系。
 
-组织架构：
+### 组织架构：
+
+> java基础
+> 基础篇 基础语法 面向对象 集合框架 异常处理 重点知识
+> 进阶篇 并发编程 JVM
+>
+> 企业级开发
+> 基础篇 Maven Git Nginx Docker Postman
+> 工具篇 IntelliJ IDEA 辅助工具
+> 框架篇 SSM Spring Boot MyBatis Spring Cloud
+> 安全篇 认证授权
+> 分布式 RPC ZooKeeper
+> 高性能 消息队列 读写分离 分库分表 负载均衡
+> 高可用 限流 降级 熔断
+> 实战篇 开源项目 问题解析
+>
+> 数据库 MySQL Redis
+> 计算机基础 操作系统 计算机网络 数据结构与算法 设计模式
+
+### java基础
+#### 基础语法
+##### 关键字
+- abstract:用于声明抽象类，以及抽象方法。
+- extends:用于继承类。
+- final:用于指示变量不可更改。
+- implements：用于接口的实现
+- interface：用于接口声明
+- native：用于指定一个方法是通过本机接口调用的（非java）
+- transient:修饰的字段不会被序列化
+- volatile：保证不同线程对它修饰的变量进行操作时的可见性，即一个现成修改了某个变量的值，新值对其他线程是立马可见的。
+
+##### 数组&字符串
+数组
+> 初始化
+    int[] anArray = new int[10];
+    int[] anArray = new int[]{1,2,3,4,5,6}; 
+>遍历
+    int[] anArray = new int[]{1,2,3,4,5};
+    
+    for (int i = 0; i < anArray.length; i++) {
+        System.out.println(anArray[i]);
+    }
+    for (int i : anArray) {
+        System.out.println(anArray[i]);
+    }
+>打印
+    一维数组 使用toString方法。二维数组 deepToString
+List
+> 初始化
+
+    //数组转List
+    int[] anArray = new int[]{1,2,3,4,5};
+
+    // List中不能方基本数据类型，需要将int[] anArray 转为Integer[] 包装类型。
+    Integer[] interArray = Arrays.stream(anArray).boxed().toArray(Integer[]::new);//
+    List<Integer> list = new ArrayList<>();
+    
+    //方式1 遍历
+    for (int i : anArray) {
+        list.add(anArray[i]);
+    }
+    //方式2 静态工厂方法
+    List<Integer> list2 = Arrays.asList(anArray);
+集合框架
+- Collection,主要由List Set Queue组成。
+  - List代表有序、可重复集合，就是封装了动态数组的ArrayList和封装了链表的LinkedList; 
+  - Set代表无序、不可重复集合，典型就是HashSet、TreeSet；Set集合底层都是Map来实现的。 
+  - Queue代表队列，典型代表就是双端队列ArrayDeque,以及优先级队列PriorityQueue
+- Map，键值对，iOS中的Dictory一致，键要求保持唯一性，值可以重复。典型代表就是HashMap
+
+字符串
+> 在java中字符串是对象，不能用==来表示是否相等，因为==比较的是内存地址，需要使用 compareTo() 或者 equals() 是不可变的。
+> 在iOS中字符串也是对象，跟java一样不能使用 == 需要使用 isEqualToString 是可变的。
+> swift中虽然字符串也是对象，但是本质是结构体，可以使用==运算符比较2个字符串是否相等。 是不可变的。
+
+equals()、append()、contains()、split()
+
+##### 其他
+数据类型（基本数据类型，引用数据类型_数组_接口_类）、类型转换、运算符（算数，关系，位，逻辑，赋值，三元）、流程控制语句
+
+#### 面向对象
+
+类、方法、构造方法、继承、接口(抽象类中所有方法都是抽象的)、抽象(抽象类 抽象方法)、多态、权限修饰符
+>方法
+
+    实例方法（创建对象后调用）
+    静态方法（static修饰可以类名直接调用）
+    抽象方法（atstract修饰，继承抽象类重写来实现）
+>构造方法
+>抽象类
+>接口
+    Java 原则上只支持单一继承，但通过接口可以实现多重继承的目的。
+    使某些实现类具有我们想要的功能
+    实现多态
+    
+    策略模式 一对多，雇用了一批工人装修，可以多实现
+    适配器模式 就是小区门口的快递驿站，不管什么快递他也接收，跟适配器一样可以适配不同国家插头，接口对接驿站，驿站对接我
+    工厂模式 一对一实现
+>   
+> 
 
 
-[//]: # (上面的问题在Java Objective-C Swift中有什么区别和代码的具体实现是什么？)
-
-
-I want you to act as a software developer.
-I will provide some specific information about a ios and java requirements，
-
-
-
-I want you to act as a software developer. I will provide some specific information about a ios and java requirements,
-and it will be your job to come up with an architecture and code for developing secure app with Swift and Objective-c and java. My first request is [项目要求]
-
-
-
-
-I want you to act as a Senior Frontend developer. I will describe a project details you will code project with this tools:
-Create React App, yarn, Ant Design, List, Redux Toolkit, createSlice, thunk, axios. You should merge files in single index.js 
-file and nothing else. Do not write explanations. My first request is [项目要求]
 
 
 
 
 
-I want you to act as a software developer.I will provide some specific information about iOS and java requirements,you will code project with this tools:
-
-My first request is [项目要求]
-
-
-
-I will describe a project details
 
 
 
 
-I want you to act as a software developer.I will provide some specific information about iOS and java requirements, You will tell me the difference and specific code implementation in Objective, Swift and Java.My first request is [项目要求]
-
-
-
-
-I want you to act as a software developer.I will provide some specific information about iOS and java requirements, 
-You will tell me the difference and specific code implementation in Objective, Swift and Java.My first request is [接口]
-
-
-
-You will tell me the difference between Objective, Swift and Java. Use metaphor and imagination to describe! Better to increase the sense of sight, hearing, smell, touch and taste!For example, A Qiang is the security guard (internal class) of the community (external class). Although he has no house in the community (member variables and methods of external class), he can still enjoy life in the community. They also sing and cook every day. They often burn the pot when cooking. It's too bitter. Singing is also hard to hear. They are very happy every day.My first request is [接口]
-
-我将问你一个编程的问题,回答要用 比喻 和 想象 描述！最好加上视觉，听觉，嗅觉，触觉，味觉！并且使用简体中文回复。
-
-例如：阿强就是小区（外部类）的保安（内部类），虽然他在小区内没有房子（外部类的成员变量和方法），但是他依旧可以在小区享受生活。每天还唱歌做饭呢，做饭经常糊锅，苦的不行，唱歌也是声音难听，每天非常快乐。
-
-我的问题是：
-
-
-I want you to act as a software developer.I will provide some specific information about iOS and java requirements, You will tell me the difference. Use metaphor and imagination to describe! Better to increase the sense of sight, hearing, smell, touch and taste!For example, A Qiang is the security guard (internal class) of the community (external class). Although he has no house in the community (member variables and methods of external class), he can still enjoy life in the community. They also sing and cook every day. They often burn the pot when cooking. It's too bitter. Singing is also hard to hear. They are very happy every day.My first request is [接口]
-
-
-
-你现在是一个综合程序员，我讲问你一个问题，你回答要用 比喻 和 想象 描述！最好加上视觉，听觉，嗅觉，触觉，味觉！
-
-例如：阿强就是小区（外部类）的保安（内部类），虽然他在小区内没有房子（外部类的成员变量和方法），但是他依旧可以在小区享受生活。每天还唱歌做饭呢，做饭经常糊锅，苦的不行，唱歌也是声音难听，每天非常快乐。
-
-我的问题是：接口是什么
+#### 框架集合
