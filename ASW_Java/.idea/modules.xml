@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ASW_Java.iml" filepath="$PROJECT_DIR$/ASW_Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/Network/Network.iml" filepath="$PROJECT_DIR$/src/Network/Network.iml" />
     </modules>
   </component>
 </project>

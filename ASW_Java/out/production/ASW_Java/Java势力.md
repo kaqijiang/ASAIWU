@@ -89,7 +89,10 @@ equals()、append()、contains()、split()
     静态方法（static修饰可以类名直接调用）
     抽象方法（atstract修饰，继承抽象类重写来实现）
 >构造方法
+
 >抽象类
+    
+
 >接口
     Java 原则上只支持单一继承，但通过接口可以实现多重继承的目的。
     使某些实现类具有我们想要的功能
@@ -98,8 +101,85 @@ equals()、append()、contains()、split()
     策略模式 一对多，雇用了一批工人装修，可以多实现
     适配器模式 就是小区门口的快递驿站，不管什么快递他也接收，跟适配器一样可以适配不同国家插头，接口对接驿站，驿站对接我
     工厂模式 一对一实现
->   
-> 
+>内部类
+    
+    成员内部类
+    局部内部类
+    匿名内部类
+    静态内部类
+    Lambda表达式
+
+
+
+#### 集合框架
+
+List：ArrayList LinkedList Vector 和 Stack
+
+Set: HashSet LinkedHashSet TreeSet
+
+Queue:ArrayDeque LinkedList PriorityQueue
+
+Map：HashMap LinkedHashMap TreeMap
+
+集合数组遍历中删除元素时要使用迭代器方式。不然可能会发生ConcurrentModificationException问题
+
+
+#### IO
+IO 类很多，但核心的就是 4 个抽象类：InputStream、OutputStream、Reader、Writer。
+
+>操作对象划分
+    
+    文件，数组，管道，基本数据类型，缓冲，打印，对象序列化/反序列化，转换
+
+    File Path Paths Files
+
+
+#### 异常
+Exception Error checked unchecked throw throws try-catch-finally
+
+#### 常用工具类
+- Arrays
+  
+
+    copyOf copyOfRange fill() equals() sort() binarySearch() stream() toString() asList() setAll() 
+    parallelPrefix()
+    
+
+- Collections
+
+
+    reverse() shuffle() sort() swap() binarySearch(List list, Object key)
+    max(Collection coll)
+    max(Collection coll, Comparator comp)：根据自定义比较器，返回最大元素
+    min(Collection coll)：返回最小元素
+    min(Collection coll, Comparator comp)：根据自定义比较器，返回最小元素
+    fill(List list, Object obj)：使用指定对象填充    
+    frequency(Collection c, Object o)：返回指定对象出现的次数
+
+    synchronizedList()    
+    emptyXxx()：制造一个空的不可变集合
+    singletonXxx()：制造一个只有一个元素的不可变集合
+    unmodifiableXxx()：为指定集合制作一个不可变集合
+
+    addAll(Collection<? super T> c, T... elements)，往集合中添加元素
+    disjoint(Collection<?> c1, Collection<?> c2)，判断两个集合是否没有交集
+- Hutool 工具类
+
+    
+    Convert
+#### 重要知识点
+
+#### 网络编程
+    
+#### NIO
+
+#### 并发编程
+
+#### JVM
+
+### 企业开发
+#### 框架
+### 数据库
 
 
 
@@ -107,8 +187,3 @@ equals()、append()、contains()、split()
 
 
 
-
-
-
-
-#### 框架集合
